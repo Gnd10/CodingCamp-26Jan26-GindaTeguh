@@ -12,7 +12,7 @@ function welcomeMessage() {
     }
 
     // Display the welcome message
-    document.getElementById("welcome-speech").innerText = `Hello, ${userResponse}! Welcome to Ginda Enigma Corporation.`;
+    document.getElementById("welcome-speech").innerText = `Hello, ${userResponse}! Welcome to Ginda Enigma Corporation Website.`;
 }
 
 // Function to handle message submission (currently empty)

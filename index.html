@@ -61,23 +61,48 @@
                 <p class="mt-2">Have questions or want to work with us? Send us a message and we'll get back to you
                     promptly.</p>
             </header>
-
-            <form>
-                <div class="mb-4">
-                    <label class="block mb-2" for="name">Name:</label>
-                    <input class="w-full p-2 border rounded" type="text" id="name" name="name" required />
-                </div>
-                <div class="mb-4">
-                    <label class="block mb-2" for="email">Email:</label>
-                    <input class="w-full p-2 border rounded" type="email" id="email" name="email" required />
-                </div>
-                <div class="mb-4">
-                    <label class="block mb-2" for="message">Message:</label>
-                    <textarea class="w-full p-2 border rounded" id="message" name="message" rows="5"
-                        required></textarea>
-                </div>
-                <button class="px-4 py-2 bg-blue-500 text-white rounded" type="button">Send Message</button>
-            </form>
+            <div class="info-panel">
+                <h2>Informasi Waktu dan Pengguna</h2>
+                <p><strong>Waktu saat ini:</strong> <span id="current-time">Fri Jun 17 2022 11:27:28 GMT+0100</span></p>
+                <p><strong>Data yang akan diisi:</strong> Nama: Harfi Novian, Tanggal Lahir: 01/11/1995, Jenis Kelamin: Laki-Laki, Pesan: Lagi Belajar buat Website</p>
+            </div>
+        </header>
+        
+            <div class="form-container">
+                <form id="messageForm">
+                    <div class="form-group">
+                        <label for="nama">Nama:</label>
+                        <input type="text" id="nama" name="nama" value="Harfi Novian" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="tanggal-lahir">Tanggal Lahir:</label>
+                        <input type="date" id="tanggal-lahir" name="tanggal_lahir" value="1995-11-01" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Jenis Kelamin:</label>
+                        <div class="gender-group">
+                            <div class="gender-option">
+                                <input type="radio" id="laki" name="jenis_kelamin" value="Laki-Laki" checked>
+                                <label for="laki">Laki-Laki</label>
+                            </div>
+                            <div class="gender-option">
+                                <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+                                <label for="perempuan">Perempuan</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="pesan">Pesan:</label>
+                        <textarea id="pesan" name="pesan" required>Lagi Belajar buat Website</textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+    
         </section>
     </main>
 

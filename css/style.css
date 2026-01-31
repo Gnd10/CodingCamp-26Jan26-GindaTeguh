@@ -19,8 +19,6 @@ body {
             max-width: 800px;
             width: 100%;
             margin: 0 auto;
-}
-.container-portfolio {
         display: flex;
         justify-content: center;
         gap: 80px; /* jarak antar lingkaran */

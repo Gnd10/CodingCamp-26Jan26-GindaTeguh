@@ -88,13 +88,12 @@ button {
   padding: 8px;
   font-size: 14px;
   border: 1px solid #000;
-  background-color: gray;
+  background-color: lightgray;
   cursor: pointer;
   text-align: center;
 }
 
 .result-box {
-  display: flex;
   width: 420px;
   border: 1px solid #000;
   padding: 15px;

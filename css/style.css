@@ -48,6 +48,7 @@ h2 {
 .wrapper {
   display: flex;
   gap: 40px;
+  justify-content: center;
   align-items: flex-start;
 }
 
@@ -89,7 +90,7 @@ button {
   padding: 8px;
   font-size: 14px;
   border: 1px solid #000;
-  color: lightgray;
+  background-color: lightgray;
   cursor: pointer;
 }
 

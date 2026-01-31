@@ -69,6 +69,7 @@ h2 {
 .form-group textarea {
   flex: 1;
   padding: 6px;
+  border: 1px solid #000;
   font-size: 14px;
 }
 

@@ -98,4 +98,5 @@ button {
   border: 1px solid #000;
   padding: 15px;
   font-size: 14px;
+  align-items: flex-end;
 }

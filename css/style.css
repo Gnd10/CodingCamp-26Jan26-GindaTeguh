@@ -48,7 +48,6 @@ h2 {
 .wrapper {
   display: flex;
   gap: 40px;
-  justify-content: center;
   align-items: flex-start;
 }
 
